@@ -1,0 +1,33 @@
+
+1) Создать переменную типа String - a="happy new year"
+2) Создать переменную типа Integer - b=35
+3) Создать переменную типа Float - c=5.5
+4) Создать переменную типа Bytes - d=b'15' или d=0b1111  или d=bytes(15)
+5) Создать переменную типа List - e=[1,2,"hello"] (списки)
+6) Создать переменную типа Tuple - f=(10,20) (кортеж, последовательность неизменных объектов)
+7) Создать переменную типа Set- g={1,2,3} (множества, последовательность уникальных объектов)
+8. Создать переменную типа Frozen set - h=frozenset({10,20,30}) (неизменяемое множество)
+9) Создать переменную типа Dict - i=dict(happy=2,new=0,year=2) (создание словаря)
+10) Вывести в консоль все выше перечисленные переменные с добавлением типа данных.
+print(a, type(a)) - 	happy new year <class 'str'>
+print(b, type(b))	35 <class 'int'>
+print(c, type(c))	               5.5 <class 'float'>
+print(d, type(d))	b'15' <class 'bytes'>
+print(e, type(e))              [1, 2, 'hello'] <class 'list'>
+print(f, type(f))                (10, 20) <class 'tuple'>
+print(g, type(g))	{1, 2, 3} <class 'set'>
+print(h, type(h))	frozenset({10, 20, 30}) <class 'frozenset'>
+print(i, type(i))	{'happy': 2, 'new': 0, 'year': 2} <class 'dict'>
+11) Создать 2 переменные String, создать переменную в которой сканкатенируете эти переменные. Вывести в консоль.
+name="nastya"
+nick="anny_cooper"
+result=name+" "+nick (пробел используется для разделения)
+print(result)
+12) Вывести в одну строку переменные типа String и Integer используя “,” (Запятую)
+age=35
+print(name,age)
+13) Вывести в одну строку переменные типа String и Integer используя “+” (Плюс)
+print(name+" "+str(age))
+
+
+ 
